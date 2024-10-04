@@ -1,0 +1,27 @@
+git config --global user.name Md. Ruhul Amin
+git config --global user.email Ruhul.rose5153@gmail.com
+{ For set user name and email in local device.}
+
+git config --global user.name
+git config --global user.email
+{for cheek name and email in local device}
+
+git init {for initialized the git repository}
+
+ls -lart{ for cheek all list in repository (with hidden files)}
+
+git status {for cheek all files status}
+
+{ file status
+Untracked ==> Staged ==> Unmodified ==>Modified ==> Staged==> loop
+lets explain:
+At first, file stored as untracked. git can't track that file. after add that file, git can track that file. that file is now staging area. when we commit that file, then that file is alocate as unmodified. Now we have two option, remove that or edit that. if we edit it goes to modified. we should again add that file to staging area. and so on.
+
+}
+git add abc.txt {for move a file to stage from untracked}
+git add -A {for move a file to stage from untracked}
+
+
+touch akd.txt {for create a file}
+
+git commit -m "This is a massege" {for move a file to unmodified from staged}
