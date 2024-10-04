@@ -25,3 +25,45 @@ git add -A {for move a file to stage from untracked}
 touch akd.txt {for create a file}
 
 git commit -m "This is a massege" {for move a file to unmodified from staged}
+
+git checkout abc.txt  { come to git commit when file is untracked}
+
+git checkout -f {come to git commit when all file is untracked}
+
+
+git log {for cheek all commit history}
+
+git log -p -1 { for cheek last git commit history (press q for quite) }
+
+git diff { for compare working directory and staiging area}
+
+git diff --staged {for compare staiging area and last commit}
+
+git rm akd.txt {for delete a file from device and staiging area}
+
+git rm --cached akd.txt {for remove from staiging area but keep in device}
+
+touch .gitignore { create a .gitignore file. (this file ignoring those files which we don't share with others)}
+
+--------------
+in git ignore
+--------------
+abc.txt{ git ignore all abc.txt file}
+*.txt {git ignore all .txt file}
+abc/ {git ignore abc directory}
+--------------------------------
+
+git branch {for cheek all branches}
+
+git branch hello {for create a branch called hello}
+
+git checkout hello {for switch master to hello}
+
+git merge hello {merge master branch to hello (first we need switch master branch then merge)}
+
+git push -u origin master {for push files}
+
+git push {for push working branch}
+
+git clone (url) (folder name) {for clone any public repository}
+
