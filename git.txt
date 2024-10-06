@@ -49,7 +49,7 @@ touch .gitignore { create a .gitignore file. (this file ignoring those files whi
 in git ignore
 --------------
 abc.txt{ git ignore all abc.txt file}
-*.txt {git ignore all .txt file}
+*.txt {git ignore all .txt file} hello
 abc/ {git ignore abc directory}
 --------------------------------
 
